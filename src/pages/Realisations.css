@@ -1,0 +1,83 @@
+/* src/pages/Realisations.css */
+
+#realisations {
+  padding-top: 6rem; 
+  padding-bottom: 6rem; 
+  background-color: var(--light-bg, #f8f9fa); 
+}
+
+#realisations h2 {
+  color: var(--title-color, #343a40); 
+  font-weight: 700; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+}
+
+
+#realisations .card {
+  border: none; 
+  border-radius: 0.75rem; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  overflow: hidden; 
+}
+
+#realisations .card:hover {
+  transform: translateY(-8px); 
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175); 
+}
+
+#realisations .card-img-top {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); 
+}
+
+#realisations .card-body {
+  padding: 1.5rem; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+#realisations .card-title {
+  color: var(--primary-blue, #007bff); 
+  font-weight: 600; 
+  margin-bottom: 0.75rem;
+}
+
+#realisations .card-text {
+  color: var(--text-color, #495057); 
+  font-size: 0.95rem;
+  line-height: 1.6;
+  flex-grow: 1; 
+}
+
+
+#realisations .card .btn {
+  margin-top: 1rem; 
+  font-size: 0.85rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.3rem;
+}
+
+
+#realisations .card .btn i {
+  margin-right: 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+  #realisations .card-img-top {
+    height: 180px; 
+  }
+}
+
+@media (max-width: 576px) {
+  #realisations .card-img-top {
+    height: 150px; 
+  }
+  #realisations .card-body {
+    padding: 1rem;
+  }
+}

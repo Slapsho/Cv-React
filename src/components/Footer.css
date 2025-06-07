@@ -1,0 +1,31 @@
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--primary-blue);
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease, opacity 0.3s ease, visibility 0.3s ease; 
+  opacity: 0; 
+  visibility: hidden; 
+  z-index: 999; 
+}
+
+.back-to-top.visible {
+  opacity: 1; 
+  visibility: visible; 
+}
+
+.back-to-top:hover {
+  background-color: darken(var(--primary-blue, #007bff), 10%); 
+ 
+}
+

@@ -1,0 +1,92 @@
+/* src/pages/Contact.css */
+
+#contact {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: var(--light-bg, #f8f9fa); 
+}
+
+#contact h2 {
+  color: var(--title-color, #343a40);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+#contact form {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.75rem;
+  background-color: #fff;
+  padding: 2.5rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
+}
+
+#contact .form-label {
+  font-weight: 600;
+  color: var(--title-color, #343a40);
+  margin-bottom: 0.5rem;
+}
+
+#contact .form-control {
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  padding: 0.75rem 1rem;
+}
+
+#contact .form-control:focus {
+  border-color: var(--primary-blue, #007bff);
+  box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+#contact .btn-primary {
+  background-color: var(--primary-blue, #007bff);
+  border-color: var(--primary-blue, #007bff);
+  font-weight: 600;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#contact .btn-primary:hover {
+  background-color: darken(var(--primary-blue, #007bff), 10%); 
+  border-color: darken(var(--primary-blue, #007bff), 10%);
+ 
+}
+
+
+#contact .row.mt-5 .col-md-4 {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact .row.mt-5 .col-md-4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+#contact .row.mt-5 .fa-3x {
+  color: var(--primary-blue, #007bff);
+  margin-bottom: 1rem;
+}
+
+#contact .row.mt-5 h4 {
+  color: var(--title-color, #343a40);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+#contact .row.mt-5 p {
+  color: var(--text-color, #495057);
+  font-size: 0.95rem;
+}
+
+
+@media (max-width: 768px) {
+  #contact form {
+    padding: 1.5rem;
+  }
+}

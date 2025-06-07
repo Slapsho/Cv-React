@@ -1,0 +1,57 @@
+/* src/components/GitHubProfile.css */
+
+.github-profile-card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  padding: 2.5rem !important; 
+}
+
+.github-profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.github-avatar {
+  width: 120px;
+  height: 120px;
+  border: 3px solid var(--primary-blue); 
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.github-profile-card h4 {
+  color: var(--primary-blue);
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.github-profile-card p.text-muted {
+  color: var(--text-color) !important;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.github-profile-card strong {
+    color: var(--title-color); 
+    font-size: 1.1em;
+}
+
+.github-profile-card small {
+    color: var(--text-color); 
+}
+
+.github-profile-card .btn-outline-primary {
+  color: var(--primary-blue);
+  border-color: var(--primary-blue);
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.github-profile-card .btn-outline-primary:hover {
+  background-color: var(--primary-blue);
+  color: #fff;
+  border-color: var(--primary-blue);
+}

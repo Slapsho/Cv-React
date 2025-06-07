@@ -1,0 +1,51 @@
+/* src/pages/LegalMentions.css */
+
+#legal-mentions {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: var(--light-bg, #f8f9fa); 
+}
+
+#legal-mentions h2 {
+  color: var(--title-color, #343a40);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#legal-mentions h4 {
+  color: var(--primary-blue, #007bff); 
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+#legal-mentions p {
+  color: var(--text-color, #495057);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+#legal-mentions a {
+  color: var(--primary-blue, #007bff);
+  text-decoration: none;
+}
+
+#legal-mentions a:hover {
+  text-decoration: underline;
+}
+
+
+#legal-mentions .card {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.75rem;
+  background-color: #fff;
+  padding: 3rem; 
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
+}
+
+
+@media (max-width: 768px) {
+  #legal-mentions .card {
+    padding: 1.5rem;
+  }
+}

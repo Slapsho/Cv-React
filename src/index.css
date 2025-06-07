@@ -1,0 +1,36 @@
+/* src/index.css */
+
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400; 
+  color: var(--text-color, #495057); 
+}
+
+
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.font-weight-bold 
+{
+  font-family: 'Nunito Sans', sans-serif; 
+  font-weight: 600; 
+  color: var(--title-color, #343a40);
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+:root {
+  --primary-blue: #007bff; 
+  --secondary-color: #6c757d; 
+  --title-color: #343a40; 
+  --text-color: #495057; 
+  --light-bg: #f8f9fa; 
+  --dark-bg: #343a40; 
+}
